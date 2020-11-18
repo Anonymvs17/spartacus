@@ -4,6 +4,7 @@
     class="link edit"
     [class.disabled]="!model.active"
     [routerLink]="{ cxRoute: 'userEdit', params: model } | cxUrl"
+    routerLinkActive="disabled"
   >
     {{ 'organization.edit' | cxTranslate }}
   </a>
